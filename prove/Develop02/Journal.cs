@@ -11,7 +11,7 @@ public class Journal
 
   public  Journal()
   {
-    //string _path1 = @"D:\Desktop\CSE210-Projects\Journal\Journal.txt";
+    //string _path1 = @"D:\Desktop\CSE210-Projects\prove\Develop02\Journal.txt";
     
     {
       

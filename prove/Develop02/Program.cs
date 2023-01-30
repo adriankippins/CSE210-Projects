@@ -26,7 +26,7 @@ class Program
             userNumber = int.Parse(userResponse);
             //journal class
             Journal journal = new Journal();
-            journal._path1= @"D:\Desktop\CSE210-Projects\Journal\journal.txt";
+            journal._path1= @"D:\Desktop\CSE210-Projects\prove\Develop02\journal.txt";
             //if statement to write to journal
             if (userNumber == 1)
             {   
