@@ -26,7 +26,7 @@ class Program
             userNumber = int.Parse(userResponse);
             //journal class
             Journal journal = new Journal();
-            journal._path1= @"D:\Desktop\CSE210-Projects\prove\Develop02\journal.txt";
+            journal._path1= @"journal.txt";
             //if statement to write to journal
             if (userNumber == 1)
             {   
@@ -73,7 +73,7 @@ class Program
            else if (userNumber == 4 )
 
            {   
-                Console.WriteLine("Save as.txt");
+                Console.WriteLine("Save as?");
                 string saved = Console.ReadLine();
                 File.Copy(journal._path1, saved);
                         
